@@ -1,0 +1,12 @@
+# Production Environment Variables for VPS
+DATABASE_URL=postgresql://learnhereuser:Golu@91700@localhost:5432/learnherefreedb
+GOOGLE_CLIENT_ID=your_google_client_id_here
+GOOGLE_CLIENT_SECRET=your_google_client_secret_here  
+SESSION_SECRET=your_very_secure_random_session_secret_at_least_32_characters_long
+PORT=3000
+NODE_ENV=production
+PGHOST=localhost
+PGPORT=5432
+PGUSER=learnhereuser
+PGPASSWORD=Golu@91700
+PGDATABASE=learnherefreedb
